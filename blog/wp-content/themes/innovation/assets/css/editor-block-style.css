@@ -1,0 +1,37 @@
+.block-editor__container, .editor-styles-wrapper p,
+.block-editor__container .editor-styles-wrapper .mce-content-body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.7;
+    color: #333;
+}
+
+.block-editor__container .editor-post-title__block .editor-post-title__input {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #282828;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.block-editor__container .editor-styles-wrapper,
+.block-editor__container .wp-block.editor-post-title__block {
+    max-width: 812px;
+}
+
+.edit-post-layout__content .edit-post-visual-editor {
+    flex-basis: 100%;
+}
+
+.editor-styles-wrapper .wp-block {
+    width: 100%;
+    max-width: 812px;
+}
+
+.editor-styles-wrapper p, .editor-styles-wrapper dd {
+    margin-bottom: 1.25em;
+}
+
+.editor-styles-wrapper ul[class^="wp-block"] {
+    margin-left: 0;
+}
